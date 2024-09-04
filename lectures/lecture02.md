@@ -24,7 +24,7 @@
 ## Graphics:
 - Legacy Software Tool Chains
 <div align="center">
-  <img src="./Enterprise_SW_toolchain.png.png" width="600" height="365" />
+  <img src="./Enterprise_SW_toolchain.png" width="600" height="365" />
 </div>
 
 ## Quiz
