@@ -4,6 +4,7 @@
 
 ## Housekeeping
     Accepting additional students
+    May Change Rooms (note Canvas/Discord)
     Week in World of AI
     Homework?
 
