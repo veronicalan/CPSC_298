@@ -31,5 +31,5 @@
 - Concepts from past two lectures 
 
 ## References:
-[Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
-[$3M a Year on $400 a Month](https://youtu.be/fvz2CxyGcyQ?si=pVjXAMrLfHXLVCoz)
+- [Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
+- [$3M a Year on $400 a Month](https://youtu.be/fvz2CxyGcyQ?si=pVjXAMrLfHXLVCoz)
