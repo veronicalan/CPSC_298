@@ -5,3 +5,4 @@
 
 [Lecture 1](./lectures/lecture01.md)
 
+[Lecture 2](./lectures/lecture02.md)
