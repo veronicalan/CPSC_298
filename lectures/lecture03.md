@@ -51,6 +51,8 @@
 
 ## Homework
 - Use V0 to generate a front-end app using NextJS/Typescript for an App of your choice. Place pull request on github with committed code.
+- Place notes on learning experience and screenshot of app in the `.md` file
+- Make Pull Request to only your OWN repo fork - not class one.
 
 ## References:
 - [Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
