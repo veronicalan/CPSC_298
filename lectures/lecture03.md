@@ -3,29 +3,46 @@
 ## Personal Introduction
 
 ## Housekeeping
-    Accepting additional students
-    May Change Rooms (note Canvas/Discord)
+    Changing Rooms this Week
     Week in World of AI
-    Homework?
+    Homework and Quiz Due
 
-## Legacy Software Tool Chains
+## Tool Chains Revisited 
 - Git
 - Languages & Frameworks
 - Development Environments
 - Debugging
 - Testing
+- V0, Replit, Open Router...
 
-## Next Generation Software Tool Chains
-- AI Git (Revision Control)
-- Recommended by AI Languages & Frameworks
-- Development Environments, Debugging, Tests
-- Fast Iteration
-- See video: Cursor, V0, Replit...
+## Next Generation
+- AI Revision Control
+- AI Languages & Frameworks tied to AI
+- Development Environments, Debugging, Tests Automated via AI
+- Fast Iteration with Prompting
+- See video: Cursor, V0, Replit... [in class poll]
 
-## Graphics:
+## Transformers & Feed Forward Networks
+- A brief introduction to ANNs
+- Feed forward nature and inferential approach
+- Tokenization
+
+## Mixture of Experts (MoE)
+- Gating & Routing
+
+## Artificial Neural Networks:
 - Legacy Software Tool Chains
 <div align="center">
-  <img src="./Enterprise_SW_toolchain.png" width="600" height="365" />
+  <img src="./ANN_abstract_wb.png" width="600" height="365" />
+</div>
+<div align="center">
+  <img src="./Attention_is_all_you_need_feed_ANN.png" width="600" height="365" />
+</div>
+<div align="center">
+  <img src="./MoE.png" width="600" height="365" />
+</div>
+<div align="center">
+  <img src="./Encoder_router_MoE.png" width="600" height="365" />
 </div>
 
 ## Quiz
@@ -33,4 +50,5 @@
 
 ## References:
 - [Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
-- [$3M a Year on $400 a Month](https://youtu.be/fvz2CxyGcyQ?si=pVjXAMrLfHXLVCoz)
+- [Attention is All you Need](https://arxiv.org/abs/1706.03762)
+- [Mixture of Experts](https://en.wikipedia.org/wiki/Mixture_of_experts)
