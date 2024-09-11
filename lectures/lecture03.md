@@ -1,7 +1,5 @@
 # Lecture 3
 
-## Personal Introduction
-
 ## Housekeeping
     Changing Rooms this Week
     Week in World of AI
