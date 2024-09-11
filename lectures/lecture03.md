@@ -6,6 +6,7 @@
     Changing Rooms this Week
     Week in World of AI
     Homework and Quiz Due
+    Cloud Recordings
 
 ## Tool Chains Revisited 
 - Git
@@ -46,7 +47,10 @@
 </div>
 
 ## Quiz
-- Concepts from past two lectures 
+- Concepts from first three lectures 
+
+## Homework
+- Use V0 to generate a front-end app using NextJS/Typescript for an App of your choice. Place pull request on github with committed code.
 
 ## References:
 - [Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
