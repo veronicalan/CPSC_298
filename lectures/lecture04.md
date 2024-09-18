@@ -3,7 +3,8 @@
 ## Housekeeping
 - Week in World of AI
     * Open AI Strawberry (o1)
-    * Google Notebook LM
+    * [Google Notebook LM](https://notebooklm.google/)
+    * Updated Coding Benchmarks: Open AI, Anthropic, Google
 - Homework and Quizzes Assesment
 - Cloud Recordings now with AI
 
