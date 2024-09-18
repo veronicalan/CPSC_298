@@ -32,6 +32,8 @@
 - Tokenization
 - Next Token Prediction
 - Transformers & Attention
+- Context Windows
+- Retrieval Augmented Generation (RAG)
 - Mixture of Experts (MoE) and non-Composition
 - Need for Composition
 
