@@ -20,8 +20,8 @@
 - What is Open Source
     * Licenses
     * LLMs: Weights, Model, & Data
-- Tooling: Aider vs. Cursor vs. V0 & Replit
 - Higher Level Abstraction vs. Close to "metal" command line use
+- Tooling: Aider vs. Github Copilot vs. Cursor vs. V0 + (Tabnine, JetBrains...)
 - Determinism and Higher Level Abstractions
 
 ## Current AI & LLM Technology for Coding Synthesis
