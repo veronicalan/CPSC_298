@@ -1,11 +1,11 @@
 # Lecture 4
 
 ## Housekeeping
-    * Week in World of AI
-        - Open AI Strawberry (o1)
-        - Google Notebook LM
-    * Homework and Quizzes Assesment
-    * Cloud Recordings now with AI
+- Week in World of AI
+    * Open AI Strawberry (o1)
+    * Google Notebook LM
+- Homework and Quizzes Assesment
+- Cloud Recordings now with AI
 
 ## Review how to use Github
 - Git
@@ -53,12 +53,14 @@
 - Everyone should have SSH keys setup along with forks
 - Everyone should have placed notes on learning experience and screenshot of app in the `.md` file
 - Everyone should have made a Pull Request to only your OWN repo fork - not class one.
+- Everyone should have Discord Webhook
 
 ## References:
 - [Chat GPT o1 Changes Everything](https://youtu.be/GUVrOa4V8iE?si=nuJ7nOqWuSNwlZDH)
-- []()
+- [Google's LM Notebook](https://youtu.be/b7GJ45oKQww?si=FCK2LSEEEEXOKNkK)
+- [Open AI o2](https://youtu.be/K_3ww-kICiM?si=OgEtXyrEjNzhmy9n)
 - [Re-review Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
 - [Cursor great but Aider is OG](https://youtu.be/ag-KxYS8Vuw?si=EVnlS-fwelkbx3JG)
 - [Partially share this Philosophy](https://youtu.be/u3wPImWBz7c?si=GzUICDwL7lmCVXVj)
 - [Correct(ness) by Construction (CbC)](https://youtu.be/rHY7nboIyBg?si=A_lapKTLNOksZgDE)
-- Channels I Follow: 
+- Channels I Follow: [Wes Roth](https://www.youtube.com/@WesRoth), [Matthew Berman](https://www.youtube.com/@matthew_berman), [David Shapiro](https://www.youtube.com/@DaveShap/videos), [Indy Dev Dan](https://www.youtube.com/@indydevdan), [Greg Isenberg](https://www.youtube.com/@GregIsenberg), [3 Blue 1 Brown](https://www.youtube.com/@3blue1brown)
