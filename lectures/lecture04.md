@@ -66,4 +66,4 @@
 - [Cursor great but Aider is OG](https://youtu.be/ag-KxYS8Vuw?si=EVnlS-fwelkbx3JG)
 - [Partially share this Philosophy](https://youtu.be/u3wPImWBz7c?si=GzUICDwL7lmCVXVj)
 - [Correct(ness) by Construction (CbC)](https://youtu.be/rHY7nboIyBg?si=A_lapKTLNOksZgDE)
-- Channels I Follow: [Wes Roth](https://www.youtube.com/@WesRoth), [Matthew Berman](https://www.youtube.com/@matthew_berman), [David Shapiro](https://www.youtube.com/@DaveShap/videos), [Indy Dev Dan](https://www.youtube.com/@indydevdan), [Greg Isenberg](https://www.youtube.com/@GregIsenberg), [3 Blue 1 Brown](https://www.youtube.com/@3blue1brown)
+- Channels I Follow for this Class: [Wes Roth](https://www.youtube.com/@WesRoth), [Matthew Berman](https://www.youtube.com/@matthew_berman), [David Shapiro](https://www.youtube.com/@DaveShap/videos), [Indy Dev Dan](https://www.youtube.com/@indydevdan), [Greg Isenberg](https://www.youtube.com/@GregIsenberg), [3 Blue 1 Brown](https://www.youtube.com/@3blue1brown)
