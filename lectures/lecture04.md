@@ -7,6 +7,7 @@
     * [Updated Coding Benchmarks: Open AI, Anthropic, Google](https://www.youtube.com/watch?v=cESc7v1G1uA)
 - Homework and Quizzes Assesment
 - Cloud Recordings now with AI
+- Reminder: Make sure you DM BOTH mobile & desktop Discord Accounts (add me as friend to do so)
 
 ## Review how to use Github
 - Git
