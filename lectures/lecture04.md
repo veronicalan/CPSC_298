@@ -1,10 +1,11 @@
 # Lecture 4
 
 ## Housekeeping
-    Week in World of AI
-    - Open AI Strawberry (o1)
-    Homework and Quizzes Assesment
-    Cloud Recordings now with AI
+    * Week in World of AI
+        - Open AI Strawberry (o1)
+        - Google Notebook LM
+    * Homework and Quizzes Assesment
+    * Cloud Recordings now with AI
 
 ## Review how to use Github
 - Git
@@ -13,6 +14,14 @@
     * Creating branches (prefer `git checkout -b <branch>`)
     * Setting up Pull Requests
 - Survey of Development Environments (Aider, Cursor, V0...)
+
+## Coding Assistance Tools; Reproducibility & Canonical Use
+- What is Open Source
+    * Licenses
+    * LLMs: Weights, Model, & Data
+- Tooling: Aider vs. Cursor vs. V0 & Replit
+- Higher Level Abstraction vs. Close to "metal" command line use
+- Determinism and Higher Level Abstractions
 
 ## Current AI & LLM Technology for Coding Synthesis
 - Benchmarking
@@ -46,6 +55,10 @@
 - Everyone should have made a Pull Request to only your OWN repo fork - not class one.
 
 ## References:
-- [Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
-- [Attention is All you Need](https://arxiv.org/abs/1706.03762)
-- [Mixture of Experts](https://en.wikipedia.org/wiki/Mixture_of_experts)
+- [Chat GPT o1 Changes Everything](https://youtu.be/GUVrOa4V8iE?si=nuJ7nOqWuSNwlZDH)
+- []()
+- [Re-review Coding an App in 1.5 hours](https://youtu.be/kDcM_xwmP3Q)
+- [Cursor great but Aider is OG](https://youtu.be/ag-KxYS8Vuw?si=EVnlS-fwelkbx3JG)
+- [Partially share this Philosophy](https://youtu.be/u3wPImWBz7c?si=GzUICDwL7lmCVXVj)
+- [Correct(ness) by Construction (CbC)](https://youtu.be/rHY7nboIyBg?si=A_lapKTLNOksZgDE)
+- Channels I Follow: 
