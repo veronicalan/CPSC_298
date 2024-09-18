@@ -4,7 +4,7 @@
 - Week in World of AI
     * Open AI Strawberry (o1)
     * [Google Notebook LM](https://notebooklm.google/)
-    * Updated Coding Benchmarks: Open AI, Anthropic, Google
+    * [Updated Coding Benchmarks: Open AI, Anthropic, Google](https://www.youtube.com/watch?v=cESc7v1G1uA)
 - Homework and Quizzes Assesment
 - Cloud Recordings now with AI
 
