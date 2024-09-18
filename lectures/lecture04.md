@@ -8,6 +8,7 @@
 - Homework and Quizzes Assesment
 - Cloud Recordings now with AI
 - Reminder: Make sure you DM BOTH mobile & desktop Discord Accounts (add me as friend to do so)
+- Tools for Next Lecture: LLM & Aider (see: Resources)
 
 ## Review how to use Github
 - Git
