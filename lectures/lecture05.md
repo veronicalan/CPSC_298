@@ -5,13 +5,16 @@
     * Open AI Strawberry (o1) as STaR confirmations
     * [Claude Dev (extension to VS Code)](https://github.com/saoudrizwan/claude-dev)
     * [Updated Coding Benchmarks: Open AI, Anthropic, Google](https://www.youtube.com/watch?v=cESc7v1G1uA)
-    * [New Microsoft Models]()
-    * [ClaudeDev]()
-- Homework and Quizzes Assesment; Docking 10% minimum of missed deadline
+    * [New Microsoft Models](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcs8uhnA2CPUQP9EpzFBvjCNOmTg62aYu8PKxQVL8Z3Gf4Rv5LaOdHGBXEIupZXdYu9-eIhgW5mBC5j4ZUYp14zxBBX61VObQpC1x7_cyG_5PBbSZuYThwRolLJBWWwZlAB_MD8-7iTDS4OpXCEvgOI3zdV?key=EeRJUTRsFriuBsQRcjhLjw)
+    * [ClaudeDev](https://github.com/saoudrizwan/claude-dev)
+    * Meta Conference This week + open source developments
+- Homework and Quizzes Assesment; Docking 10% minimum for missed deadlines; Due dates will now be late Wednesdays (after class)
 - Walk throught Github Pull Request
 - A word on System and Language Ecosystem Package Management (`npm`, `brew`, `choco install`, `pip`, `uv`, etc.)
+- Re-orienting class: TypeScript + Python language ecosystems
 
 ## Where Everyone Should Be:
+- Discord Notifications with Webhook (DM me if you need the hook)
 - Upstream forked and Setup on Personal Github accounts; Know Git/hub:
     * `ssh-keygen` & `ssh-add {-l}`
     * `git pull`
@@ -37,20 +40,6 @@
 
 - Assignment 1 Pull Request on Github account with changes in assignment directory
     * ` npx shadcn@latest add "https://v0.dev/chat/...`
-
-## Current AI & LLM Technology for Coding Synthesis
-- Benchmarking
-- Self Taught Reasoners (STaR)
-- Chain/Tree of Thought Reasoning
-- Feed Forward Networks & Autoregression with Loss Minimization
-- Tokenization
-- Next Token Prediction
-- Transformers & Attention
-- Context Windows
-- Retrieval Augmented Generation (RAG)
-- Mixture of Experts (MoE) and non-Composition
-- Agents
-- Need for Composition
 
 ## Artificial Neural Networks:
 - MoE & Encoding Re-Review
