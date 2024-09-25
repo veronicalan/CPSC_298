@@ -1,4 +1,4 @@
-# CPSC_298
+# CPSC 298
 ## Using Large Language Models for Coding Assistance
 
 ### Lectures
