@@ -11,6 +11,7 @@
 - Walk through Github Pull Request
 - A word on System and Language Ecosystem Package Management (`npm`, `brew`, `choco install`, `pip`, `uv`, etc.)
 - Re-orienting class: TypeScript + Python language ecosystems
+- Get Groq key: (https://console.groq.com/keys)[https://console.groq.com/keys]
 
 ## Where Everyone Should Be:
 - Discord Notifications with Webhook (DM me if you need the hook)
@@ -50,6 +51,7 @@
 </div>
 
 ## Homework
+- Currently free / See above to get Groq key; [Open AI Compatibility](https://groq.com/groqcloud/)
 - Fifth Week Assignment (#3)
     * Place jeffrey-l-turner as reviewer on pull request
     * Setup and add `.aider.conf.yml` to existing PR; [Download from GitHub](https://raw.githubusercontent.com/paul-gauthier/aider/refs/heads/main/aider/website/assets/sample.aider.conf.yml)
