@@ -4,12 +4,11 @@
 - Week in World of AI
     * Open AI Strawberry (o1) as STaR confirmations
     * [Claude Dev (extension to VS Code)](https://github.com/saoudrizwan/claude-dev)
-    * [Updated Coding Benchmarks: Open AI, Anthropic, Google](https://www.youtube.com/watch?v=cESc7v1G1uA)
+    * [Updated Coding Benchmarks: Open AI, Anthropic, Google](https://www.youtube.com/watch?v=cESc7v1G1uA) & [Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)
     * [New Microsoft Models](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcs8uhnA2CPUQP9EpzFBvjCNOmTg62aYu8PKxQVL8Z3Gf4Rv5LaOdHGBXEIupZXdYu9-eIhgW5mBC5j4ZUYp14zxBBX61VObQpC1x7_cyG_5PBbSZuYThwRolLJBWWwZlAB_MD8-7iTDS4OpXCEvgOI3zdV?key=EeRJUTRsFriuBsQRcjhLjw)
-    * [ClaudeDev](https://github.com/saoudrizwan/claude-dev)
     * Meta Conference This week + open source developments
-- Homework and Quizzes Assesment; Docking 10% minimum for missed deadlines; Due dates will now be late Wednesdays (after class)
-- Walk throught Github Pull Request
+- Homework and Quizzes Assesment; Docking 10% minimum for missed deadlines; Due dates will now on late Wednesday (after class) & Docked Thursday
+- Walk through Github Pull Request
 - A word on System and Language Ecosystem Package Management (`npm`, `brew`, `choco install`, `pip`, `uv`, etc.)
 - Re-orienting class: TypeScript + Python language ecosystems
 
