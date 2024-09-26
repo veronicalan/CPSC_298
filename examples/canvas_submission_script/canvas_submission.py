@@ -10,7 +10,10 @@ def get_canvas_domain():
 
 def get_courses(api_token, domain):
     url = f"https://{domain}/api/v1/courses"
-    headers = {"Authorization": f"Bearer {api_token}"}
+    headers = {
+        "Authorization": f"Bearer {api_token}",
+        "Authentication-Provider": "canvas"
+    }
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     return response.json()
