@@ -34,6 +34,7 @@ def update_student_grade(api_token, course_id, assignment_id, student_id, grade)
     response.raise_for_status()
     return response.json()
 def create_csv_for_students(courses, api_token):
+    with open('students_list.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['Course Name', 'Student Name', 'Email'])
 
