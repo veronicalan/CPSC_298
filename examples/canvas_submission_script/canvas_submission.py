@@ -33,7 +33,7 @@ def update_student_grade(api_token, course_id, assignment_id, student_id, grade)
     response = requests.put(url, headers=headers, json=data)
     response.raise_for_status()
     return response.json()
-    with open('students_list.csv', mode='w', newline='') as file:
+def create_csv_for_students(courses, api_token):
         writer = csv.writer(file)
         writer.writerow(['Course Name', 'Student Name', 'Email'])
 
@@ -56,6 +56,7 @@ def update_grades_for_students(courses, api_token):
                 student_id = student['id']
                 # Example: Assign a grade of 85 to each student for each assignment
                 update_student_grade(api_token, course_id, assignment_id, student_id, 85)
+def main():
     api_token = get_canvas_api_token()
     if not api_token:
         raise EnvironmentError("CANVAS_API_TOKEN environment variable not set.")
