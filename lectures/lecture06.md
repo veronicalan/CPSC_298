@@ -43,10 +43,10 @@
 ## Artificial Neural Networks, Deep Learning, & Complexity:
 - A model for AI & Computer Science
 <div align="center">
-  <img src="./P-NP.png" width="600" height="355" />
+  <img src="./P-NP.png" width="500" height="355" />
 </div>
 <div align="center">
-  <img src="./QMA-BPP.png" width="600" height="355" />
+  <img src="./QMA-BPP.png" width="500" height="355" />
 </div>
 - P: Problems solvable in polynomial time by a deterministic Turing machine.
 - BPP: Problems solvable in polynomial time with a probabilistic Turing machine (bounded error).
