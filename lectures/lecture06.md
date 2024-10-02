@@ -12,7 +12,7 @@
 - Homework and Quizzes Assesment; Docking 10% minimum at end of day for current assignment.
 - Canvas Updated once I review your PR (make sure I'm contributor/reviewer)
 - Poll on Groq Key usage; Will assign keys next week.
-- Check Spreadsheet & DM if incorrect/incomplete (posted in Discord)
+- Check Spreadsheet & DM if incorrect/incomplete (posted in Discord); If not on sheet I will not get your homework submissions!
 
 ## Where Everyone Should Be Revisited:
 - Discord Notifications with Webhook (DM me if you need the hook; Look in Discord help channel for Webhooks)
