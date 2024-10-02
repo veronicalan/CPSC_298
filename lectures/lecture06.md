@@ -61,8 +61,8 @@ See definitions:
 - NP: Probabilistic problems for which solutions can be verified efficiently.
 - QMA (Quantum Merlin-Arthur): A quantum analogue of the classical class 
 - MA where a quantum verifier checks a quantum proof.
-- PostBQP (Post-selected BQP): The class of problems solvable by a quantum computer with post-selection (an unphysical ability to conditionally halt computations based on outcomes).\
-- BPP (Bounded-error Probabilistic Polynomial time): Classical probabilistic algorithms that solve problems with a bounded error probability.\
+- PostBQP (Post-selected BQP): The class of problems solvable by a quantum computer with post-selection (an unphysical ability to conditionally halt computations based on outcomes).
+- BPP (Bounded-error Probabilistic Polynomial time): Classical probabilistic algorithms that solve problems with a bounded error probability.
 
 ## Mid-Term
 - Concepts through this Class
