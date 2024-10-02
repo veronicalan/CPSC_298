@@ -11,6 +11,8 @@
     * [AI Agents, Claude Engineering, and Startups](https://youtu.be/z4QsBsO3SS0?si=WvxBTLJwv0R3vT_r)
 - Homework and Quizzes Assesment; Docking 10% minimum at end of day for current assignment.
 - Canvas Updated once I review your PR (make sure I'm contributor/reviewer)
+- Poll on Groq Key usage; Will assign keys next week.
+- Check Spreadsheet & DM if incorrect/incomplete (posted in Discord)
 
 ## Where Everyone Should Be Revisited:
 - Discord Notifications with Webhook (DM me if you need the hook; Look in Discord help channel for Webhooks)
@@ -50,7 +52,7 @@
 </div>
 See definitions:
 
-## Partial Definitions
+### Partial Definitions
 - P: Problems solvable in polynomial time by a deterministic Turing machine.
 - BPP: Problems solvable in polynomial time with a probabilistic Turing machine (bounded error).
 - NP: Problems for which a proposed solution can be verified in polynomial time.
