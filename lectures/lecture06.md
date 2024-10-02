@@ -48,6 +48,7 @@
 <div align="center">
   <img src="./QMA-BPP.png" width="500" height="355" />
 </div>
+### Partial Definitions
 - P: Problems solvable in polynomial time by a deterministic Turing machine.
 - BPP: Problems solvable in polynomial time with a probabilistic Turing machine (bounded error).
 - NP: Problems for which a proposed solution can be verified in polynomial time.
