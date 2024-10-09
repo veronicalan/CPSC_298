@@ -76,7 +76,7 @@ See definitions:
 - LLM and Prompts as Programs
 
 ## References:
-- [Prompts as Programs]()
+- [Prompts as Programs](https://youtu.be/IQI5BZlVI3Y?si=FuNUtqfFVVV_BZ6y)
 
 ## Resources:
 - Channels I Follow for this Class: [Wes Roth](https://www.youtube.com/@WesRoth), [Matthew Berman](https://www.youtube.com/@matthew_berman), [David Shapiro](https://www.youtube.com/@DaveShap/videos), [Indy Dev Dan](https://www.youtube.com/@indydevdan), [Greg Isenberg](https://www.youtube.com/@GregIsenberg), [3 Blue 1 Brown](https://www.youtube.com/@3blue1brown), [AI Explained](https://www.youtube.com/@3blue1brown)

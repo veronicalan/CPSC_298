@@ -14,3 +14,5 @@
 [Lecture 5](./lectures/lecture05.md)
 
 [Lecture 6](./lectures/lecture06.md)
+
+[Lecture 7](./lectures/lecture07.md)
