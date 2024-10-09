@@ -68,6 +68,7 @@
     * Place alias or script and XML files in `assignments/git-llm/` subdirectory
     * Create new branch and put PR with me as reviwer
     * Should not take more than an hour
+    * helpful `llm | LLM` commands: `llm --help`, `llm templates`, `llm templates path`, `llm --save summarize` / e.g. `llm --system 'Create an automated git commit command' --model gpt-4 --save summarize`
 
 ## References:
 - [Prompts as Programs](https://youtu.be/IQI5BZlVI3Y?si=FuNUtqfFVVV_BZ6y)
