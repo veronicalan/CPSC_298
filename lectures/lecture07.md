@@ -49,8 +49,9 @@
 - Have me (jeffrey-l-turner) as reviewer/collaborator on Pull Requests (note Canvas will be graded once assignment complete)
 - Make Sure you're information is accurate on CSV posted in Discord
 - Signup for [Pythathagora](https://www.pythagora.ai) - no luck getting access so far; Recommendation: use Cursor with Pythagora
+- Understand basics of complexity theory and non-deterministic algos
 
-## A visual for these systems revisited
+## A visual for Coding Assistance systems revisited
 - Models & Coding Assistance
 - Context Windows, Size & Next Token Prediction
 - Increase Computing and Storage to Scale
