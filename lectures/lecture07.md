@@ -29,6 +29,8 @@
     * `ssh -vT git@github.com # check ssh key setup`
     * understand `.gitignore` and `.*` hidden files in project
     * understand `git log` and how to reset out sync repos with the `upstream`
+    * if on Mac: `ssh-add --apple-use-keychain  ... && ssh-add --apple-load-keychain` otherwise:
+    * `ssh-add -K ~/.ssh/.ssh`
 - Pull Requests on Github, forks, and origin/upstreams synchronized.
 - Basics of AI coding with V0 and setting up code on local repo
 - Knowledge of TypeScript ecosystem with `npx`, `npm`, and NodeJS (ask AI if uncertain)
@@ -71,5 +73,6 @@
 
 ## Resources:
 - Channels I Follow for this Class: [Wes Roth](https://www.youtube.com/@WesRoth), [Matthew Berman](https://www.youtube.com/@matthew_berman), [David Shapiro](https://www.youtube.com/@DaveShap/videos), [Indy Dev Dan](https://www.youtube.com/@indydevdan), [Greg Isenberg](https://www.youtube.com/@GregIsenberg), [3 Blue 1 Brown](https://www.youtube.com/@3blue1brown), [AI Explained](https://www.youtube.com/@3blue1brown)
-- Tools: [Aider](https://aider.chat/), [LLM](https://github.com/simonw/llm), & [uv](https://github.com/astral-sh/uv)
+- Tools: [Aider](https://aider.chat/), [LLM](https://github.com/simonw/llm), & [uv](https://github.com/astral-sh/uv) [Data Centric](https://youtube.com/@data-centric?si=SjrEhrokPgsDoeYF)
 - [Groq key](https://console.groq.com/keys)
+- [Open AI Key Management](https://platform.openai.com/)
