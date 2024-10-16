@@ -51,6 +51,10 @@
 
 ## Visualizing LLMs for Coding Assistance
 
+<div align="center">
+  <img src="./../docs/drawings/Centering_context.png" width="500" height="355" />
+</div>
+
 ## Python Coding Exercise
 - Techniques
     * Triple quotes - """
@@ -62,7 +66,7 @@
     * Using "Judgement" -- AI cannot assess versioning for example (e.g. Rust, DenoJS vs NodeJS, Python 2/3, ...)
 
 ## References:
-- []()
+- [UV](https://github.com/astral-sh/uv)
 
 ## Resources:
 - Channels I Follow for this Class: [Wes Roth](https://www.youtube.com/@WesRoth), [Matthew Berman](https://www.youtube.com/@matthew_berman), [David Shapiro](https://www.youtube.com/@DaveShap/videos), [Indy Dev Dan](https://www.youtube.com/@indydevdan), [Greg Isenberg](https://www.youtube.com/@GregIsenberg), [3 Blue 1 Brown](https://www.youtube.com/@3blue1brown), [AI Explained](https://www.youtube.com/@3blue1brown)
