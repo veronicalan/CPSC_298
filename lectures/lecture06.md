@@ -13,6 +13,7 @@
 - Canvas Updated once I review your PR (make sure I'm contributor/reviewer)
 - Poll on Groq Key usage; Will assign keys next week.
 - Check Spreadsheet & DM if incorrect/incomplete (posted in Discord); If not on sheet I will not get your homework submissions!
+- Swenson #N305 now for office hours
 
 ## Where Everyone Should Be Revisited:
 - Discord Notifications with Webhook (DM me if you need the hook; Look in Discord help channel for Webhooks)
