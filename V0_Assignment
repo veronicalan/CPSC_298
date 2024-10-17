@@ -207,7 +207,20 @@ export default function Component() {
                             <h4 className="font-semibold mb-2">Add a Review:</h4>
                             <input type="number" min="1" max="5" placeholder="Rating (1-5)" className="border p-1 mr-2" />
                             <input type="text" placeholder="Comment" className="border p-1 mr-2" />
-                            <Button onClick={() => {/* Add review logic here */}}>Submit</Button>
+                            <Button onClick={() => {
+                              const ratingInput = document.querySelector(`#rating-${recipe.id}`);
+                              const commentInput = document.querySelector(`#comment-${recipe.id}`);
+                              const rating = parseInt(ratingInput.value);
+                              const comment = commentInput.value;
+                              if (rating && comment) {
+                                setReviews(prev => ({
+                                  ...prev,
+                                  [recipe.id]: [...(prev[recipe.id] || []), { rating, comment }]
+                                }));
+                                ratingInput.value = '';
+                                commentInput.value = '';
+                              }
+                            }}>Submit</Button>
                           </div>
                         </DialogDescription>
                       </DialogHeader>
