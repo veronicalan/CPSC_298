@@ -14,11 +14,13 @@ import {
 } from "@/components/ui/dialog"
 
 // Mock data for ingredients and recipes
-const allIngredients = [
-  "Chicken", "Beef", "Pork", "Rice", "Pasta", "Tomato", "Onion", "Garlic",
-  "Cheese", "Egg", "Milk", "Butter", "Olive Oil", "Salt", "Pepper", "Flour",
-  "Sugar", "Lemon", "Carrot", "Potato", "Spinach", "Broccoli", "Bell Pepper"
-]
+const ingredientCategories = {
+  Proteins: ["Chicken", "Beef", "Pork"],
+  Grains: ["Rice", "Pasta", "Flour"],
+  Vegetables: ["Tomato", "Onion", "Garlic", "Carrot", "Potato", "Spinach", "Broccoli", "Bell Pepper"],
+  Dairy: ["Cheese", "Egg", "Milk", "Butter"],
+  Condiments: ["Olive Oil", "Salt", "Pepper", "Sugar", "Lemon"]
+}
 
 const recipes = [
   {
@@ -45,11 +47,19 @@ export default function Component() {
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedIngredients, setSelectedIngredients] = useState<string[]>([])
   const [matchingRecipes, setMatchingRecipes] = useState<typeof recipes>([])
+  const [likedRecipes, setLikedRecipes] = useState<number[]>([])
+  const [reviews, setReviews] = useState<{ [key: number]: { rating: number, comment: string }[] }>({})
 
-  const filteredIngredients = allIngredients.filter(ingredient => 
-    ingredient.toLowerCase().includes(searchTerm.toLowerCase()) &&
-    !selectedIngredients.includes(ingredient)
-  )
+  const filteredIngredients = Object.entries(ingredientCategories).reduce((acc, [category, ingredients]) => {
+    const filtered = ingredients.filter(ingredient =>
+      ingredient.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      !selectedIngredients.includes(ingredient)
+    )
+    if (filtered.length) {
+      acc[category] = filtered
+    }
+    return acc
+  }, {})
 
   const addIngredient = useCallback((ingredient: string) => {
     setSelectedIngredients(prev => {
@@ -87,7 +97,7 @@ export default function Component() {
           font-family: 'Poppins', sans-serif;
         }
       `}</style>
-      <div className="container mx-auto p-4 max-w-2xl bg-white rounded-lg shadow-lg">
+      <div className="container mx-auto p-4 max-w-2xl bg-white rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl">
         <h1 className="text-3xl font-bold mb-6 text-center text-orange-600 flex items-center justify-center">
           <Carrot className="mr-2 h-8 w-8" />
           Recipe Finder
@@ -103,20 +113,25 @@ export default function Component() {
               onChange={handleSearchChange}
               className="flex-grow"
             />
-            <Button onClick={() => setSearchTerm("")} variant="outline">Clear</Button>
+            <Button onClick={() => setSearchTerm("")} variant="outline" className="hover:bg-gray-200">Clear</Button>
           </div>
           
           {searchTerm && (
             <ScrollArea className="h-32 border rounded-md p-2 bg-white">
-              {filteredIngredients.map(ingredient => (
-                <Button
-                  key={ingredient}
-                  variant="ghost"
-                  className="w-full justify-start"
-                  onClick={() => addIngredient(ingredient)}
-                >
-                  {ingredient}
-                </Button>
+              {Object.entries(filteredIngredients).map(([category, ingredients]) => (
+                <div key={category}>
+                  <h3 className="font-semibold text-gray-700">{category}</h3>
+                  {ingredients.map(ingredient => (
+                    <Button
+                      key={ingredient}
+                      variant="ghost"
+                      className="w-full justify-start"
+                      onClick={() => addIngredient(ingredient)}
+                    >
+                      {ingredient}
+                    </Button>
+                  ))}
+                </div>
               ))}
             </ScrollArea>
           )}
@@ -157,7 +172,14 @@ export default function Component() {
                     <DialogTrigger asChild>
                       <Button variant="link" className="w-full justify-between text-left">
                         <span>{recipe.name}</span>
-                        <ChevronRight className="h-4 w-4 flex-shrink-0" />
+                        <div className="flex items-center">
+                          <Button onClick={() => {
+                            setLikedRecipes(prev => prev.includes(recipe.id) ? prev.filter(id => id !== recipe.id) : [...prev, recipe.id])
+                          }}>
+                            {likedRecipes.includes(recipe.id) ? "Unlike" : "Like"}
+                          </Button>
+                          <ChevronRight className="h-4 w-4 flex-shrink-0" />
+                        </div>
                       </Button>
                     </DialogTrigger>
                     <DialogContent>
@@ -172,6 +194,34 @@ export default function Component() {
                           </ul>
                           <h3 className="font-semibold mb-2 text-lg">Instructions:</h3>
                           <p className="text-gray-700">{recipe.instructions}</p>
+                          <h3 className="font-semibold mt-4 mb-2 text-lg">Reviews:</h3>
+                          <ul className="list-disc list-inside mb-4">
+                            {(reviews[recipe.id] || []).map((review, index) => (
+                              <li key={index}>
+                                <strong>Rating:</strong> {review.rating} / 5
+                                <p>{review.comment}</p>
+                              </li>
+                            ))}
+                          </ul>
+                          <div>
+                            <h4 className="font-semibold mb-2">Add a Review:</h4>
+                            <input type="number" min="1" max="5" placeholder="Rating (1-5)" className="border p-1 mr-2" />
+                            <input type="text" placeholder="Comment" className="border p-1 mr-2" />
+                            <Button onClick={() => {
+                              const ratingInput = document.querySelector(`#rating-${recipe.id}`);
+                              const commentInput = document.querySelector(`#comment-${recipe.id}`);
+                              const rating = parseInt(ratingInput.value);
+                              const comment = commentInput.value;
+                              if (rating && comment) {
+                                setReviews(prev => ({
+                                  ...prev,
+                                  [recipe.id]: [...(prev[recipe.id] || []), { rating, comment }]
+                                }));
+                                ratingInput.value = '';
+                                commentInput.value = '';
+                              }
+                            }}>Submit</Button>
+                          </div>
                         </DialogDescription>
                       </DialogHeader>
                     </DialogContent>
