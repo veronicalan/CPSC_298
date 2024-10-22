@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt>
+    <system>Create an automated git commit message summarizing changes made in the current working directory.</system>
+    <model>gpt-4</model>
+    <task>summarize</task>
+</prompt>
+
